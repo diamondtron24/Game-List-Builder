@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    {% block cdn %}
+    {% endblock %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script defer src="{% static 'armada/main.js' %}"></script>
+</head>
+<body>
+    <body class="brown lighten-4">
+        <nav>
+            <div class="nav-wrapper blue lighten-2">
+              <a href="{% url 'armada:index' %}" class="brand-logo">Armada Fleet Builder</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="{% url 'armada:index' %}">Home</a></li>
+                {% if request.user.is_anonymous %}
+                <li><a href="{% url 'users:signup' %}">Sign Up</a></li>
+                <li><a href="{% url 'users:login' %}">Login</a></li>
+                {% else %}
+                <li><a href="{% url 'armada:create' %}">Create</a></li>
+                <li><a href="{% url 'armada:userdashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'users:logout' %}">Logout</a></li>
+                {% endif %}
+              </ul>
+            </div>
+          </nav>
+
+    <p>Hello Armada Friends</p>
+    <div id="app">
+        {% block content %}
+        
+        {% endblock %}
+    </div>
+</body>
+
+</html>

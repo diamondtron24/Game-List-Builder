@@ -1,0 +1,885 @@
+[
+    {
+        "id": 1043,
+        "title": "Assault Frigate Mk2 A",
+        "image": "assault-frigate-mark-ii-a.png",
+        "set": "ship",
+        "type": "assault-frigate",
+        "points": 81,
+        "faction": "rebel",
+        "size": "medium",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "defensive-retrofit": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1044,
+        "title": "Assault Frigate Mk2 B",
+        "image": "assault-frigate-mark-ii-b.png",
+        "set": "ship",
+        "type": "assault-frigate",
+        "points": 72,
+        "faction": "rebel",
+        "size": "medium",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "defensive-retrofit": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1045,
+        "title": "CR90 Corvette A",
+        "image": "cr90-corvette-a.png",
+        "set": "ship",
+        "type": "corvette",
+        "points": 44,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "defensive-retrofit": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1046,
+        "title": "CR90 Corvette B",
+        "image": "cr90-corvette-b.png",
+        "set": "ship",
+        "type": "corvette",
+        "points": 39,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "defensive-retrofit": true,
+            "ion-cannons": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1277,
+        "title": "GR-75 Combat Retrofits",
+        "image": "swm19-gr-75-combat-retrofits.png",
+        "set": "ship",
+        "type": "gr-75",
+        "points": 24,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "officer": true,
+            "fleet-support": true,
+            "offensive-retrofit": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1276,
+        "title": "GR-75 Medium Transports",
+        "image": "swm19-gr-75-medium-transports.png",
+        "set": "ship",
+        "type": "gr-75",
+        "points": 18,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "officer": true,
+            "fleet-support": true,
+            "offensive-retrofit": true,
+            "title": true
+        }
+    },
+    {
+        "id": 2783,
+        "title": "Hammerhead Scout Corvette",
+        "image": "swm27-hammerhead-scout-corvette.png",
+        "set": "ship",
+        "type": "hammerhead",
+        "points": 41,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 2781,
+        "title": "Hammerhead Torpedo Corvette",
+        "image": "swm27-hammerhead-torpedo-corvette.png",
+        "set": "ship",
+        "type": "hammerhead",
+        "points": 36,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "ordnance": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1186,
+        "title": "MC30c Scout Frigate",
+        "image": "mc30c-scout-frigate.png",
+        "set": "ship",
+        "type": "mc30c-frigate",
+        "points": 69,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "defensive-retrofit": true,
+            "ordnance": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1187,
+        "title": "MC30c Torpedo Frigate",
+        "image": "mc30c-torpedo-frigate.png",
+        "set": "ship",
+        "type": "mc30c-frigate",
+        "points": 63,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "defensive-retrofit": true,
+            "ordnance": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1002,
+        "title": "MC75 Armored Cruiser",
+        "image": "mc75-armored-cruiser.png",
+        "set": "ship",
+        "type": "mc75-cruiser",
+        "points": 104,
+        "faction": "rebel",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "defensive-retrofit": true,
+            "ordnance": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1003,
+        "title": "MC75 Ordnance Cruiser",
+        "image": "mc75-ordnance-cruiser.png",
+        "set": "ship",
+        "type": "mc75-cruiser",
+        "points": 100,
+        "faction": "rebel",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "defensive-retrofit": true,
+            "ordnance": true,
+            "ordnance-2": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1188,
+        "title": "MC80 Assault Cruiser",
+        "image": "mc80-assault-cruiser.png",
+        "set": "ship",
+        "type": "mc80-cruiser",
+        "points": 114,
+        "faction": "rebel",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "defensive-retrofit": true,
+            "defensive-retrofit-2": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1189,
+        "title": "MC80 Command Cruiser",
+        "image": "mc80-command-cruiser.png",
+        "set": "ship",
+        "type": "mc80-cruiser",
+        "points": 106,
+        "faction": "rebel",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "offensive-retrofit": true,
+            "defensive-retrofit": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1275,
+        "title": "MC80 Battle Cruiser",
+        "image": "swm17-mc80-battle-cruiser.png",
+        "set": "ship",
+        "type": "mc80-liberty",
+        "points": 103,
+        "faction": "rebel",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "support-team": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "turbolasers-2": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1274,
+        "title": "MC80 Star Cruiser",
+        "image": "swm17-mc80-star-cruiser.png",
+        "set": "ship",
+        "type": "mc80-liberty",
+        "points": 96,
+        "faction": "rebel",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "support-team": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "turbolasers-2": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1047,
+        "title": "Nebulon-B Escort Frigate",
+        "image": "nebulon-b-escort-frigate.png",
+        "set": "ship",
+        "type": "nebulon-b",
+        "points": 57,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1048,
+        "title": "Nebulon-B Support Refit",
+        "image": "nebulon-b-support-refit.png",
+        "set": "ship",
+        "type": "nebulon-b",
+        "points": 51,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1334,
+        "title": "Pelta Assault Ship",
+        "image": "pelta-class-assault-ship.png",
+        "set": "ship",
+        "type": "pelta",
+        "points": 56,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "fleet-command": true,
+            "ordnance": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1335,
+        "title": "Pelta Command Ship",
+        "image": "pelta-class-command-ship.png",
+        "set": "ship",
+        "type": "pelta",
+        "points": 60,
+        "faction": "rebel",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "fleet-command": true,
+            "offensive-retrofit": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1454,
+        "title": "Starhawk Battleship Mark I",
+        "image": "starhawk-class-battleship-mark-1.jpg",
+        "set": "ship",
+        "type": "starhawk",
+        "points": 140,
+        "faction": "rebel",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "officer-2": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "super-weapon": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1455,
+        "title": "Starhawk Battleship Mark II",
+        "image": "starhawk-class-battleship-mark-2.jpg",
+        "set": "ship",
+        "type": "starhawk",
+        "points": 150,
+        "faction": "rebel",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "officer-2": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "super-weapon": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1330,
+        "title": "Arquitens Command Cruiser",
+        "image": "arquitens-class-command-cruiser.png",
+        "set": "ship",
+        "type": "arquitens",
+        "points": 59,
+        "faction": "imperial",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "defensive-retrofit": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1331,
+        "title": "Arquitens Light Cruiser",
+        "image": "arquitens-class-light-cruiser.png",
+        "set": "ship",
+        "type": "arquitens",
+        "points": 54,
+        "faction": "imperial",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "defensive-retrofit": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1049,
+        "title": "Gladiator I",
+        "image": "gladiator-i.png",
+        "set": "ship",
+        "type": "gladiator-class-star-destroyer",
+        "points": 56,
+        "faction": "imperial",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "support-team": true,
+            "ordnance": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1050,
+        "title": "Gladiator II",
+        "image": "gladiator-ii.png",
+        "set": "ship",
+        "type": "gladiator-class-star-destroyer",
+        "points": 62,
+        "faction": "imperial",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "support-team": true,
+            "ordnance": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1291,
+        "title": "Gozanti Assault Carriers",
+        "image": "swm18-gozanti-class-assault-carriers.png",
+        "set": "ship",
+        "type": "gozanti",
+        "points": 28,
+        "faction": "imperial",
+        "size": "small",
+        "upgrades": {
+            "officer": true,
+            "fleet-support": true,
+            "offensive-retrofit": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1290,
+        "title": "Gozanti Cruisers",
+        "image": "swm18-gozanti-class-cruisers.png",
+        "set": "ship",
+        "type": "gozanti",
+        "points": 23,
+        "faction": "imperial",
+        "size": "small",
+        "upgrades": {
+            "officer": true,
+            "fleet-support": true,
+            "offensive-retrofit": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1203,
+        "title": "Imperial I",
+        "image": "imperial-i-class-star-destroyer.png",
+        "set": "ship",
+        "type": "imperial-class-star-destroyer",
+        "points": 110,
+        "faction": "imperial",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "offensive-retrofit-2": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1204,
+        "title": "Imperial II",
+        "image": "imperial-ii-class-star-destroyer.png",
+        "set": "ship",
+        "type": "imperial-class-star-destroyer",
+        "points": 120,
+        "faction": "imperial",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "defensive-retrofit": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1278,
+        "title": "ISD Cymoon 1 Refit",
+        "image": "isd-cymoon-1-refit.png",
+        "set": "ship",
+        "type": "imperial-class-star-destroyer",
+        "points": 112,
+        "faction": "imperial",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "fleet-command": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "turbolasers": true,
+            "turbolasers-2": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1279,
+        "title": "ISD Kuat Refit",
+        "image": "isd-kuat-refit.png",
+        "set": "ship",
+        "type": "imperial-class-star-destroyer",
+        "points": 112,
+        "faction": "imperial",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "defensive-retrofit": true,
+            "ion-cannons": true,
+            "ordnance": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1293,
+        "title": "Interdictor Combat Refit",
+        "image": "swm14-interdictor-combat-refit.png",
+        "set": "ship",
+        "type": "interdictor",
+        "points": 93,
+        "faction": "imperial",
+        "size": "medium",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "offensive-retrofit": true,
+            "experimental-retrofit": true,
+            "ion-cannons": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1292,
+        "title": "Interdictor Suppression Refit",
+        "image": "swm16-interdictor-suppression-refit.png",
+        "set": "ship",
+        "type": "interdictor",
+        "points": 90,
+        "faction": "imperial",
+        "size": "medium",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "support-team": true,
+            "offensive-retrofit": true,
+            "experimental-retrofit": true,
+            "experimental-retrofit-2": true,
+            "ion-cannons": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1448,
+        "title": "Onager Star Destroyer",
+        "image": "onager-class-star-destroyer.jpg",
+        "set": "ship",
+        "type": "onager",
+        "points": 110,
+        "faction": "imperial",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "weapons-team-2": true,
+            "turbolasers": true,
+            "super-weapon": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1449,
+        "title": "Onager Testbed",
+        "image": "onager-class-testbed.jpg",
+        "set": "ship",
+        "type": "onager",
+        "points": 96,
+        "faction": "imperial",
+        "size": "large",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "weapons-team-2": true,
+            "support-team": true,
+            "super-weapon": true,
+            "title": true
+        }
+    },
+    {
+        "id": 2666,
+        "title": "Quasar Fire I",
+        "image": "swm26-quasar-fire-i-class-cruiser-carrier.png",
+        "set": "ship",
+        "type": "quasar",
+        "points": 54,
+        "faction": "imperial",
+        "size": "medium",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "offensive-retrofit-2": true,
+            "title": true
+        }
+    },
+    {
+        "id": 2664,
+        "title": "Quasar Fire II",
+        "image": "swm26-quasar-fire-ii-class-cruiser-carrier.png",
+        "set": "ship",
+        "type": "quasar",
+        "points": 61,
+        "faction": "imperial",
+        "size": "medium",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team-2": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1201,
+        "title": "Raider I",
+        "image": "raider-i-class-corvette.png",
+        "set": "ship",
+        "type": "raider-class-corvette",
+        "points": 44,
+        "faction": "imperial",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "ordnance": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1202,
+        "title": "Raider II",
+        "image": "raider-ii-class-corvette.png",
+        "set": "ship",
+        "type": "raider-class-corvette",
+        "points": 48,
+        "faction": "imperial",
+        "size": "small",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "ion-cannons": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1051,
+        "title": "Victory I",
+        "image": "victory-i.png",
+        "set": "ship",
+        "type": "victory-class-star-destroyer",
+        "points": 73,
+        "faction": "imperial",
+        "size": "medium",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "turbolasers": true,
+            "ordnance": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1052,
+        "title": "Victory II",
+        "image": "victory-ii.png",
+        "set": "ship",
+        "type": "victory-class-star-destroyer",
+        "points": 85,
+        "faction": "imperial",
+        "size": "medium",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "turbolasers": true,
+            "ion-cannons": true,
+            "title": true
+        }
+    },
+    
+    {
+        "id": 1053,
+        "title": "SSD Command Prototype",
+        "image": "ssd-command-prototype.png",
+        "set": "ship",
+        "type": "super-star-destroyer",
+        "points": 220,
+        "faction": "imperial",
+        "size": "huge",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "officer-2": true,
+            "officer-3": true,
+            "fleet-command": true,
+            "fleet-command-2": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1054,
+        "title": "SSD Assault Prototype",
+        "image": "ssd-assault-prototype.png",
+        "set": "ship",
+        "type": "super-star-destroyer",
+        "points": 250,
+        "faction": "imperial",
+        "size": "huge",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "officer-2": true,
+            "officer-3": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "offensive-retrofit-2": true,
+            "ion-cannons": true,
+            "ion-cannons-2": true,
+            "turbolasers": true,
+            "turbolasers-2": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1055,
+        "title": "SSD Executor I",
+        "image": "ssd-executor-1.png",
+        "set": "ship",
+        "type": "super-star-destroyer",
+        "points": 381,
+        "faction": "imperial",
+        "size": "huge",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "officer-2": true,
+            "officer-3": true,
+            "officer-4": true,
+            "fleet-command": true,
+            "fleet-command-2": true,
+            "fleet-command-3": true,
+            "fleet-command-4": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "ion-cannons": true,
+            "turbolasers": true,
+            "title": true
+        }
+    },
+    {
+        "id": 1056,
+        "title": "SSD Executor II",
+        "image": "ssd-executor-2.png",
+        "set": "ship",
+        "type": "super-star-destroyer",
+        "points": 411,
+        "faction": "imperial",
+        "size": "huge",
+        "upgrades": {
+            "commander": true,
+            "officer": true,
+            "officer-2": true,
+            "officer-3": true,
+            "officer-4": true,
+            "fleet-command": true,
+            "weapons-team": true,
+            "offensive-retrofit": true,
+            "offensive-retrofit-2": true,
+            "ion-cannons": true,
+            "ion-cannons-2": true,
+            "turbolasers": true,
+            "turbolasers-2": true,
+            "title": true
+        }
+    }
+]

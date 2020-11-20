@@ -1,0 +1,77 @@
+id |             title |             image | set |             type |             points |             faction |             keywords |             unique |
+ 1345 |  Biggs Darklighter  |  biggs-darklighter.png  |  squadron  |  x-wing  | 19 |  rebel  | [ bomber    escort ] | true|
+ 1351 |  Corran Horn  |  corran-horn.png  |  squadron  |  e-wing  | 22 |  rebel  | [ bomber    rogue    snipe ] | true|
+ 1352 |  Dagger Squadron  |  dagger-squadron.png  |  squadron  |  b-wing  | 15 |  rebel  | [ bomber    swarm ] | true|
+ 1260 |  Dash Rendar  |  dash-rendar.png  |  squadron  |  yt-2400  | 24 |  rebel  | [ bomber    rogue ] | true|
+ 1133 |  Dutch Vander  |  dutch-vander.png  |  squadron  |  y-wing  | 16 |  rebel  | [ bomber    heavy ] | true|
+ 1355 |  Gold Squadron  |  gold-squadron.png  |  squadron  |  y-wing  | 12 |  rebel  | [ bomber ] | true|
+1356|  Green Squadron  |  green-squadron.png  |  squadron  |  a-wing  | 12 |  rebel  | [ bomber    counter ] | true|
+ 1258 |  Han Solo  |  han-solo.png  |  squadron  |  yt-1300  | 26 |  rebel  | [ grit    rogue ] | true|
+ 1357 |  Hera Syndulla  |  hera-syndulla.png  |  squadron  |  vcx-100-freighter  | 28 |  rebel  | [ grit    rogue ] | true|
+ 1259 |  Jan Ors  |  jan-ors.png  |  squadron  |  hwk-290  | 19 |  rebel  | [ counter    intel ] | true|
+ 1430 |  Kanan Jarrus  |  kanan-jarrus.jpg  |  squadron  |  hwk-290  | 19 |  rebel  | [ assault    cloak    rogue ] | true|
+ 1358 |  Ketsu Onyo  |  ketsu-onyo.png  |  squadron  |  lancer-pursuit-craft  | 22 |  rebel  | [ bomber    grit    rogue ] | true|
+ 1134 |  Keyan Farlander  |  keyan-farlander.png  |  squadron  |  b-wing  | 20 |  rebel  | [ bomber ] | true|
+ 1431 |  Lando Calrissian  |  lando-calrissian.png  |  squadron  |  yt-1300  | 23 |  rebel  | [ grit    rogue ] | true|
+ 1347 |  Lieutenant Blount  |  lieutenant-blount.png  |  squadron  |  z-95  | 14 |  rebel  | [ swarm ] | true|
+ 1135 |  Luke Skywalker  |  luke-skywalker.png  |  squadron  |  x-wing  | 20 |  rebel  | [ bomber    escort ] | true|
+ 1432 |  Malee Hurra  |  malee-hurra.jpg  |  squadron  |  scurrg-h-6-bomber  | 26 |  rebel  | [ bomber    grit ] | true|
+ 1433 |  Mart Mattin  |  mart-mattin.jpg  |  squadron  |  yt-2400  | 22 |  rebel  | [ grit    rogue ] | true|
+ 1405 |  Norra Wexley  |  norra-wexley.png  |  squadron  |  y-wing  | 17 |  rebel  | [ bomber ] | true|
+ 1261 |  Nym  |  nym.png  |  squadron  |  scurrg-h-6-bomber  | 21 |  rebel  | [ bomber    grit ] | true|
+ 1363 |  Rogue Squadron  |  rogue-squadron.png  |  squadron  |  x-wing  | 14 |  rebel  | [ bomber    rogue ] | true|
+ 1365 |  Shara Bey  |  shara-bey.png  |  squadron  |  a-wing  | 17 |  rebel  | [ counter ] | true|
+ 1367 |  Ten Numb  |  ten-numb.png  |  squadron  |  b-wing  | 19 |  rebel  | [ bomber ] | true|
+ 1136 |  Tycho Celchu  |  tycho-celchu.png  |  squadron  |  a-wing  | 16 |  rebel  | [ counter ] | true|
+1137|  Wedge Antilles  |  wedge-antilles.png  |  squadron  |  x-wing  | 19 |  rebel  | [ bomber    escort ] | true|
+ 1346 |  Black Squadron  |black-squadron.png|squadron  |  tie-fighter  | 9 |imperial| [ counter    escort ] |TRUE|
+ 1253 |  Boba Fett  |boba-fett.png|squadron  |  firespray-31  | 26 |imperial| [ bomber    rogue ] |TRUE|
+ 1257 |  Bossk  |bossk.png  |squadron  |  yv-666  | 23 |imperial| [ grit    rogue ] |TRUE|
+ 1348 |  Captain Jonus  |captain-jonus.png  |squadron  |  tie-bomber  | 16 |imperial| [ bomber    grit    heavy ] |TRUE|
+ 1349 |  Ciena Ree  |ciena-ree.png  |squadron  |  tie-interceptor  | 17 |imperial| [ counter    swarm ] |TRUE|
+ 1350 |  Colonel Jendon  |colonel-jendon.png  |squadron  |  lambda-shuttle  | 20 |imperial| [ heavy    relay ] |TRUE|
+ 1124 |  Darth Vader  |darth-vader.png  |squadron  |  tie-advanced  | 21 |imperial| [ escort ] |TRUE|
+ 1255 |  Dengar  |dengar.png  |squadron  |  jumpmaster-5000  | 20 |imperial| [ intel    swarm ] |TRUE|
+ 1354 |  Gamma Squadron  |gamma-squadron.png  |squadron  |  tie-bomber  | 10 |imperial| [ bomber    grit ] |TRUE|
+ 1022 |  Gar Saxon  |gar-saxon.png  |squadron  |  mandalorian-gauntlet-fighter  | 23 |imperial| [ assault    rogue ] |TRUE|
+ 1434 |  Hondo Ohnaka  |hondo-ohnaka.jpg  |squadron  |  firespray-31  | 24 |imperial| [ bomber    grit    rogue ] |TRUE|
+ 1125 |  Howlrunner  |howlrunner.png  |squadron  |  tie-fighter  | 16 |imperial| [ swarm ] |TRUE|
+ 1254 |  IG-88  |ig88.png  |squadron  |  aggressor-assault-fighter  | 21 |imperial| [ counter    rogue ] |TRUE|
+ 1435 |  IG-88B  |ig-88b.png  |squadron  |  aggressor-assault-fighter  | 21 |imperial| [ counter    rogue ] |TRUE|
+ 1361 |  Maarek Stele  |maarek-stele.png  |squadron  |  tie-defender  | 21 |imperial| [ bomber    grit ] |TRUE|
+ 1126 |  Major Rhymer  |major-rhymer.png  |squadron  |  tie-bomber  | 16 |imperial| [ bomber    heavy ] |TRUE|
+ 1127 |  Mauler Mithel  |mauler-mithel.png  |squadron  |  tie-fighter  | 15 |imperial| [ swarm ] |TRUE|
+ 1436 |  Moralo Eval  |moralo-eval.jpg  |squadron  |  yv-666  | 22 |imperial| [ grit    rogue ] |TRUE|
+ 1362 |  Morna Kee  |morna-kee.png  |squadron  |  vt-49-decimator  | 27 |imperial| [ counter    rogue ] |TRUE|
+ 1364 |  Saber Squadron  |saber-squadron.png  |squadron  |  tie-interceptor  | 12 |imperial| [ snipe    swarm ] |TRUE|
+ 1128 |  Soontir Fel  |soontir-fel.png  |squadron  |  tie-interceptor  | 18 |imperial| [ counter    swarm ] |TRUE|
+ 1437 |  Tel Trevura  |tel-trevura.jpg  |squadron  |  jumpmaster-5000  | 17 |imperial| [ grit    rogue ] |TRUE|
+ 1366 |  Tempest Squadron  |tempest-squadron.png  |squadron  |  tie-advanced  | 13 |imperial| [ bomber    escort ] |TRUE|
+ 1370 |  Valen Rudor  |valen-rudor.png  |squadron  |  tie-fighter  | 13 |imperial| [ swarm ] |TRUE|
+ 1373 |  Whisper  |whisper.png  |squadron  |  tie-phantom  | 20 |imperial| [ cloak ] |TRUE|
+ 1375 |  Zertik Strom  |zertik-strom.png  |squadron  |  tie-advanced  |15|imperial| [ escort ] |TRUE|
+ 1129 |  A-wing Squadron  |  a-wing-squadron.png  |  squadron  |  a-wing  | 11 |  rebel  | [ counter ]||
+ 1130 |  B-wing Squadron  |  b-wing-squadron.png  |  squadron  |  b-wing  | 14 |  rebel  | [ bomber ]||
+ 1353 |  E-wing Squadron  |  e-wing-squadron.png  |  squadron  |  e-wing  | 15 |  rebel  | [ bomber    snipe ]||
+ 1267 |  HWK-290  |  hwk-290.png  |  squadron  |  hwk-290  | 12 |  rebel  | [ counter    intel ]||
+ 1360 |  Lancer Pursuit Craft  |  lancer-class-pursuit-craft.png  |  squadron  |  lancer-pursuit-craft  | 15 |  rebel  | [ bomber    grit    rogue ]||
+ 1268 |  Scurrg H-6 Bomber  |  scurrg-h6.png  |  squadron  |  scurrg-h-6-bomber  | 16 |  rebel  | [ bomber    grit    heavy ]||
+ 1371 |  VCX-100 Freighter  |  vcx-100-freighter.png  |  squadron  |  vcx-100-freighter  | 15 |  rebel  | [ heavy    relay    strategic ]||
+ 1131 |  X-wing Squadron  |  x-wing-squadron.png  |  squadron  |  x-wing  | 13 |  rebel  | [ bomber    escort ]||
+ 1132 |  Y-wing Squadron  |  y-wing-squadron.png  |  squadron  |  y-wing  | 10 |  rebel  | [ bomber    heavy ]||
+ 1265 |  YT-1300  |  yt-1300.png  |  squadron  |  yt-1300  | 13 |  rebel  | [ counter    escort ]||
+ 1266 |  YT-2400  |  yt-2400.png  |  squadron  |  yt-2400  | 16 |  rebel  | [ rogue ]||
+ 1374 |  Z-95 Headhunter Squadron  |  z-95-headhunter-squadron.png  |  squadron  |  z-95  | 7 |  rebel  | [ swarm ]||
+ 1270 |  Aggressor Assault Fighter  |aggressor-assault-fighter.png|squadron  |  aggressor-assault-fighter  | 16 |imperial| [ counter    rogue ]||
+ 1242 |  Firespray-31  |firespray.png  |squadron  |  firespray-31  | 18 |imperial| [ bomber    rogue ]||
+ 1271 |  JumpMaster 5000  |jumpmaster-5000.png  |squadron  |  jumpmaster-5000  | 12 |imperial| [ intel    swarm ]||
+ 1359 |  Lambda Shuttle  |lambda-class-shuttle.png  |squadron  |  lambda-shuttle  | 15 |imperial| [ heavy    relay    strategic ]||
+ 1009 |  Mandalorian Gauntlet Fighter  |mandalorian-gauntlet-fighter.png  |squadron  |  mandalorian-gauntlet-fighter  | 20 |imperial| [ assault    rogue ]||
+ 1120 |  TIE Advanced Squadron  |tie-advanced-squadron.png  |squadron  |  tie-advanced  | 12 |imperial| [ escort ]||
+ 1121 |  TIE Bomber Squadron  |tie-bomber-squadron.png  |squadron  |  tie-bomber  | 9 |imperial| [ bomber    heavy ]||
+ 1368 |  TIE Defender Squadron  |tie-defender-squadron.png  |squadron  |  tie-defender  | 16 |imperial| [ bomber ]||
+ 1122 |  TIE Fighter Squadron  |tie-fighter-squadron.png  |squadron  |  tie-fighter  | 8 |imperial| [ swarm ]||
+ 1123 |  TIE Interceptor Squadron  |tie-interceptor-squadron.png  |squadron  |  tie-interceptor  | 11 |imperial| [ counter    swarm ]||
+ 1369 |  TIE Phantom Squadron  |tie-phantom-squadron.png  |squadron  |  tie-phantom  | 14 |imperial| [ cloak ]||
+ 1372 |  VT-49 Decimator  |vt-49-decimator.png  |squadron  |  vt-49-decimator  | 22 |imperial| [ counter    heavy    rogue ]||
+ 1269 |  YV-666  |yv-666.png  |squadron  |  yv-666  | 15 |imperial| [ grit    heavy    rogue ]||
