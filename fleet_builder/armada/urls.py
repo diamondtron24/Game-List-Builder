@@ -4,6 +4,7 @@ from . import views
 app_name = "armada"
 urlpatterns = [
     path('', views.index, name="index"),
-    path('userdashboard', views.userdashboard, name='userdashboard'),
-    path('create', views.create, name='create'),
+    path('userdashboard/', views.userdashboard, name='userdashboard'),
+    path('create/', views.create, name='create'),
+    path('create/getBaseShips/', views.getBaseShips, name='getBaseShips'),
 ]

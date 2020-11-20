@@ -6,4 +6,5 @@ Create Your Fleet
 
 {% block content %}
 
+<a v-for="ship in baseShips" class="waves-effect waves-light"><img v-bind:src="'/static/armada/images/' + ship.ship_image" alt=""></a>
 {% endblock %}
