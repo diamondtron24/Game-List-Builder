@@ -6,5 +6,9 @@ Create Your Fleet
 
 {% block content %}
 
+<div class="choose_faction_icons">
+    <a v-on:click='getBaseShips("rebel")' class="btn-floating btn-large waves-effect waves"> <img src="/static/armada/images/rebel.png" alt=""></a>
+    <a v-on:click='getBaseShips("imperial")' class="btn-floating btn-large waves-effect waves"> <img src="/static/armada/images/imperial.jpg" alt=""></a>
+</div>
 <a v-for="ship in baseShips" class="waves-effect waves-light"><img v-bind:src="'/static/armada/images/' + ship.ship_image" alt=""></a>
 {% endblock %}

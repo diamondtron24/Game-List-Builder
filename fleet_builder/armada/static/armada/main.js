@@ -15,8 +15,8 @@ let app = new Vue({
     },
 
     methods: {
-        getBaseShips: async function(){
-            data = await axios.get('getBaseShips/')
+        getBaseShips: async function(faction){
+            data = await axios.get(`getBaseShips/${faction}/`)
             console.log(data)
             app.baseShips = data.data.base_ships
         }

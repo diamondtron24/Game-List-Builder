@@ -20,8 +20,8 @@ def create(request):
     return render(request, 'armada/create.html')
 
 
-def getBaseShips(request):
-    base_ships = BaseShip.objects.all()
+def getBaseShips(request, faction):
+    base_ships = BaseShip.objects.filter(faction=faction)
     base_ship_output = []
     for ship in base_ships:
         base_ship_output.append({
@@ -30,5 +30,5 @@ def getBaseShips(request):
             'ship_image': ship.image
         })
 
-        print(base_ships)
+        # print(base_ships)
     return JsonResponse({'base_ships': base_ship_output})
