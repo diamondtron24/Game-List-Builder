@@ -4,12 +4,36 @@ img {
     background-color: white;
 }
 
-.choose_faction_icons{
+.main{
+    display: flex;
+}
+
+aside {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: sans-serif;
+    min-width: 20vw;
+}
+
+.fleet_main{
+    display: flex;
+    flex-direction: column;
+}
+
+.fleet_main > .choose_faction_icons{
     display: flex;
     justify-content: center;
     padding: 5px;
+    width: 80vw;
     
 }
-.choose_faction_icons > a{
+.fleet_main > .choose_faction_icons > a{
     margin: 5px;
+}
+
+.fleet_main > .faction_ships{
+    display: flex;
+    flex-wrap: wrap;
 }

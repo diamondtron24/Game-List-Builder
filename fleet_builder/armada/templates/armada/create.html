@@ -5,10 +5,41 @@ Create Your Fleet
 {% endblock %}
 
 {% block content %}
+<div class="main">
+<aside>
+    <div class="logo">
+        <img src="https://static.wikia.nocookie.net/starwarsrebels/images/3/39/RebelCapitolShip.jpg/revision/latest/scale-to-width-down/1000?cb=20150303185603" alt="">
+    </div>
+    <div class="single_ships">
+        <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img v-bind:src="'/static/armada/images/' + SelectedShip.image">
+                  <!-- <span class="card-title">Card Title</span> -->
+                  
+                  <a v-for='upgrade in shipUpgrades' class="btn waves-effect waves-light red"><i class="material-icons">{xxx upgrade.upgrade_type xxx}</i></a>
+                  <a class="btn waves-effect waves-light red"><i class="material-icons">add</i></a>
+                  
+                </div>
+                <!-- <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div> -->
+              </div>
+            </div>
+          </div>
+    </div>
+</aside>
 
-<div class="choose_faction_icons">
-    <a v-on:click='getBaseShips("rebel")' class="btn-floating btn-large waves-effect waves"> <img src="/static/armada/images/rebel.png" alt=""></a>
-    <a v-on:click='getBaseShips("imperial")' class="btn-floating btn-large waves-effect waves"> <img src="/static/armada/images/imperial.jpg" alt=""></a>
+<div class="fleet_main">
+    <div class="choose_faction_icons">
+        <a v-on:click='getBaseShips("rebel")' class="btn-floating btn-large waves-effect waves"> <img src="/static/armada/images/rebel.png" alt=""></a>
+        <a v-on:click='getBaseShips("imperial")' class="btn-floating btn-large waves-effect waves"> <img src="/static/armada/images/imperial.jpg" alt=""></a>
+    </div>
+
+    <div class ="faction_ships">
+        <a v-for="ship in baseShips" v-on:click='selectShip(ship.key)' class="waves-effect waves-light"><img v-bind:src="'/static/armada/images/' + ship.ship_image" alt=""></a>
+    </div>
 </div>
-<a v-for="ship in baseShips" class="waves-effect waves-light"><img v-bind:src="'/static/armada/images/' + ship.ship_image" alt=""></a>
+</div>
 {% endblock %}
