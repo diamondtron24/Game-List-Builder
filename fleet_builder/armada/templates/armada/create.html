@@ -15,16 +15,10 @@ Create Your Fleet
             <div class="col s12 m6">
               <div class="card">
                 <div class="card-image">
-                  <img v-bind:src="'/static/armada/images/' + SelectedShip.image">
-                  <!-- <span class="card-title">Card Title</span> -->
-                  
+                  <img v-bind:src="'/static/armada/images/' + SelectedShip.image">     
                   <a v-for='upgrade in shipUpgrades' class="btn waves-effect waves-light red"><i class="material-icons">{xxx upgrade.upgrade_type xxx}</i></a>
-                  <a class="btn waves-effect waves-light red"><i class="material-icons">add</i></a>
-                  
+                  <a class="btn waves-effect waves-light red"><i class="material-icons">add</i></a>                
                 </div>
-                <!-- <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                </div> -->
               </div>
             </div>
           </div>

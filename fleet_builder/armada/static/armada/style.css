@@ -1,8 +1,13 @@
+/* Global Styling */
+
 img {
     width: 100%;
     height: 100%;
     background-color: white;
 }
+
+
+/* Create Page Styling */
 
 .main{
     display: flex;
@@ -20,6 +25,10 @@ aside {
 .fleet_main{
     display: flex;
     flex-direction: column;
+    max-height: 40%;    /* Not working for ship card size */
+    padding-left: 25px;
+    padding-right: 500px; /* not working for SSD's */
+    margin: 10px;
 }
 
 .fleet_main > .choose_faction_icons{
@@ -36,4 +45,21 @@ aside {
 .fleet_main > .faction_ships{
     display: flex;
     flex-wrap: wrap;
+    
+}
+
+/* Userdashboard styling */
+
+.userdashboard_main{
+    display: flex;
+    justify-content: center;
+}
+
+/* Index page styling */
+
+.index_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
