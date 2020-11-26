@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
-from .models import Ship, Squadron, Objective, SavedList, BaseShip, Upgrade
+from .models import Ship, Squadron, Objective, SavedList, BaseShip, Upgrade, UpgradeImage
 from django.forms.models import model_to_dict
 
 
@@ -39,16 +39,25 @@ def getSingleShip(request, ship_id):
     ship = BaseShip.objects.get(pk = ship_id)
     ship_stats = model_to_dict(ship)
     upgrade_faction = ship.faction 
+    upgrade_image = UpgradeImage.objects.all()
     avail_upgrades = []
     upgrades = Upgrade.objects.filter(faction = upgrade_faction) | Upgrade.objects.filter(faction = 'nuetral')
     upgrades = list(upgrades)
 
+    # for key in ship_stats:
+    #     if ship_stats[key] == True:         
+    #         for upgrade in upgrades:               
+    #             if key in upgrade.upgrade_type.replace('-', '_') :
+    #                 avail_upgrades.append(model_to_dict(upgrade))
     for key in ship_stats:
-        if ship_stats[key] == True:         
-            for upgrade in upgrades:               
-                if key in upgrade.upgrade_type.replace('-', '_') :
-                    avail_upgrades.append(model_to_dict(upgrade))
-
+        if ship_stats[key] == True:
+            for upgrade in upgrades:
+                if upgrade.upgrade_type in key.replace('_', ' '):
+                    ship_upgrade = model_to_dict(upgrade)
+                    for image in upgrade_image:
+                        if image.upgrade_type in key:
+                            ship_upgrade['upgrade_icon'] = model_to_dict(image)
+                    avail_upgrades.append(ship_upgrade)
 
     print(avail_upgrades)
 

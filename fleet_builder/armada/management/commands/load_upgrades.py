@@ -8,9 +8,9 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         Upgrade.objects.all().delete()
         
-        with open('upgrades.csv', 'r') as file:
+        with open('upgrades copy.csv', 'r') as file:
 
-            reader = csv.reader(file, delimiter = '|')
+            reader = csv.reader(file, delimiter = ',')
             for row in list(reader)[1:]:
                 upgrade = Upgrade()
                 upgrade.title = row[1].strip()

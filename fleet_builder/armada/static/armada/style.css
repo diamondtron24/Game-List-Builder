@@ -22,12 +22,18 @@ aside {
     min-width: 20vw;
 }
 
+/* .upgrade_panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}  */
+
 .fleet_main{
     display: flex;
     flex-direction: column;
     max-height: 40%;    /* Not working for ship card size */
-    padding-left: 25px;
-    padding-right: 500px; /* not working for SSD's */
+    
+    
     margin: 10px;
 }
 
@@ -48,6 +54,13 @@ aside {
     
 }
 
+.available_upgrades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 /* Userdashboard styling */
 
 .userdashboard_main{
@@ -58,6 +71,26 @@ aside {
 /* Index page styling */
 
 .index_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* App users  */
+
+
+/* Login page */
+.login_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Signup page */
+.signup_main{
     display: flex;
     flex-direction: column;
     justify-content: center;

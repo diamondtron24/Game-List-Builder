@@ -103,3 +103,10 @@ class SavedList(models.Model):
     
     def __str__(self):
         return self.fleet_name
+
+class UpgradeImage(models.Model):
+    upgrade_type = models.CharField(max_length=50)
+    path = models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.upgrade_type
