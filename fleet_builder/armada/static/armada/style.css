@@ -20,13 +20,22 @@ aside {
     height: 100vh;
     font-family: sans-serif;
     min-width: 20vw;
+    overflow: scroll;
+}
+.aside_upgrade_button{
+    width: 100%;
+    height: ;
 }
 
-/* .upgrade_panel{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.upgrade_buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.upgrade_buttons > a{
+    width: 50%;
+}
 
-}  */
 
 .fleet_main{
     display: flex;

@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .models import Ship, Squadron, Objective, SavedList, BaseShip, Upgrade, UpgradeImage
 from django.forms.models import model_to_dict
+from django.views.decorators.csrf import csrf_exempt    
 
 
 # Create your views here.
@@ -44,11 +45,6 @@ def getSingleShip(request, ship_id):
     upgrades = Upgrade.objects.filter(faction = upgrade_faction) | Upgrade.objects.filter(faction = 'nuetral')
     upgrades = list(upgrades)
 
-    # for key in ship_stats:
-    #     if ship_stats[key] == True:         
-    #         for upgrade in upgrades:               
-    #             if key in upgrade.upgrade_type.replace('-', '_') :
-    #                 avail_upgrades.append(model_to_dict(upgrade))
     for key in ship_stats:
         if ship_stats[key] == True:
             for upgrade in upgrades:
@@ -59,16 +55,17 @@ def getSingleShip(request, ship_id):
                             ship_upgrade['upgrade_icon'] = model_to_dict(image)
                     avail_upgrades.append(ship_upgrade)
 
-    print(avail_upgrades)
 
     return JsonResponse({'ship' : ship_stats, 'upgrades':avail_upgrades})
 
-def saveShip(request, saveShip):
+@csrf_exempt
+def saveShip(request):
 
-    pass
+    print(request.body)
+    
+    return redirect('armada:create')
 
 
 
-# def getship(request,)
-#     pass
+
     

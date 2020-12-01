@@ -8,5 +8,5 @@ urlpatterns = [
     path('create/', views.create, name='create'),
     path('create/getBaseShips/<str:faction>/', views.getBaseShips, name='getBaseShips'),
     path('create/getSingleShip/<int:ship_id>/', views.getSingleShip, name='getSingleShip'),
-    path('create/saveShip/<str:save_ship>/', views.saveShip, name='saveShip'),
+    path('create/saveShip/', views.saveShip, name='saveShip'),
 ]
