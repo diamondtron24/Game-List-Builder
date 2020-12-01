@@ -9,4 +9,5 @@ urlpatterns = [
     path('create/getBaseShips/<str:faction>/', views.getBaseShips, name='getBaseShips'),
     path('create/getSingleShip/<int:ship_id>/', views.getSingleShip, name='getSingleShip'),
     path('create/saveShip/', views.saveShip, name='saveShip'),
+    path('userdashboard/viewSavedShips/', views.viewSavedShips, name='viewSavedShips'),
 ]

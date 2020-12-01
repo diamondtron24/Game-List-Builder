@@ -41,26 +41,16 @@ let app = new Vue({
 
         displayAllUpgradeType: function (upgrade_type) {
             app.displayUpgradeType = []
-            for (upgrade of app.shipUpgrades) {
-                
+            for (upgrade of app.shipUpgrades) {  
                 if (upgrade.upgrade_type == upgrade_type.replace('_', ' ') && (upgrade.ship == '' || upgrade.ship == app.SelectedShip.ship_type)) {
-                    app.displayUpgradeType.push(upgrade)
-                    
+                    app.displayUpgradeType.push(upgrade)         
                 }
-                
-                    // console.table(upgrade.upgrade_type, upgrade_type.replace('_', ' '))
-                    
-
-                
-
             }
-            
         },
 
         addAvailableUpgrade: function (upgrade) {
             for ([i, {upgrade_type}] of app.SelectedShip.upgrades.entries()){
-                if (upgrade_type == upgrade.upgrade_type){
-                   
+                if (upgrade_type == upgrade.upgrade_type){       
                     app.SelectedShip.upgrades.splice(i,1)
                 }
             }
@@ -70,11 +60,8 @@ let app = new Vue({
             for (button of app.upgradeTypes){
                 if (button.upgrade_type.replace('_', ' ') == upgrade.upgrade_type){
                     button.path = upgrade.image
-                }
-            
+                }  
             }
-
-
         },
 
         saveShip: async function() {
@@ -86,12 +73,17 @@ let app = new Vue({
                 data: {
                     ship: app.SelectedShip
                 }
-
             })
-            
-
+            location.reload()
         },
+        allUserShips: async function() {
+            let token = document.getElementsByName('csrfmiddlewaretoken')[0]
+            data = await axios.get()
 
+
+
+
+        }
     },
 
     created: function () {

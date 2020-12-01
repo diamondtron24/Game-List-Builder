@@ -6,6 +6,8 @@ from .models import Ship, Squadron, Objective, SavedList, BaseShip, Upgrade, Upg
 from django.forms.models import model_to_dict
 from django.views.decorators.csrf import csrf_exempt    
 
+import json
+
 
 # Create your views here.
 
@@ -60,10 +62,25 @@ def getSingleShip(request, ship_id):
 
 @csrf_exempt
 def saveShip(request):
+    
+    data = request.body
+    data = json.loads(data)
+    print(data)
+    print(data['data']['ship']['title'])
+    ship = Ship()
+    ship.title = data['data']['ship']['title']
+    ship.save()
+    for upgrade in data['data']['ship']['upgrades']:
+        ship.upgrades.add(upgrade['id'])
 
-    print(request.body)
+
+    # ship.upgrades.set(data['data']['ship']['upgrades'])
     
     return redirect('armada:create')
+
+
+def viewSavedShips(request):
+        pass
 
 
 
